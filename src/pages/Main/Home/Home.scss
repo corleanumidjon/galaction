@@ -1,0 +1,36 @@
+.site-home-tasks {
+  margin: 50px 0;
+}
+.site-home-tasks-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  row-gap: 40px;
+  margin-bottom: 80px;
+}
+.site-home-tasks-item {
+  overflow: hidden;
+  max-width: 400px;
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px 0 #0d6efd;
+  &:hover {
+    & img {
+      transform: scale(1.2);
+    }
+  }
+}
+.swiper {
+  padding: 40px 10px !important;
+}
+.swiper-pagination {
+  bottom: 0 !important;
+}
+.swiper-pagination-bullet {
+  width: 25px !important;
+  height: 5px !important;
+  background-color: #ffffff !important;
+  border-radius: 5px !important;
+}
